@@ -1,0 +1,33 @@
+html, body { 
+    margin: 0;
+    padding: 30px;
+    background:#ffffff;
+  }
+
+  .grid-container { 
+    display: grid;
+    grid-template-areas:
+    'item1 item2';
+    grid-gap: 10px;
+    background-color: #c9c0c0;
+    padding: 20px;
+  
+  }
+ 
+  .grid-container > div {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+  }
+
+  .item1 { 
+    grid-area: item1; 
+    background-color: rgba(255, 0, 0, 0.511);
+   }
+
+  .item2 { 
+    grid-area: item2; 
+    background-color: rgb(22, 141, 141);
+ }
+
+ 
